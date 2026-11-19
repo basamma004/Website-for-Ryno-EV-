@@ -1,0 +1,47 @@
+export const variants = {
+  Terra: {
+    price: 21.9,
+    priceLabel: '₹21.9 lakh',
+    drive: 'FWD, single motor',
+    battery: '58 kWh',
+    range: '412 km',
+    seats: '7',
+    adas: 'Level 1',
+    features: [
+      '412 km certified range',
+      '10.25" touchscreen, 7-speaker audio',
+      '6 airbags, ADAS Level 1',
+      '17" alloy wheels',
+    ],
+  },
+  Summit: {
+    price: 26.4,
+    priceLabel: '₹26.4 lakh',
+    drive: 'AWD, dual motor',
+    battery: '78 kWh',
+    range: '501 km',
+    seats: '7',
+    adas: 'Level 2',
+    features: [
+      '501 km certified range',
+      'Ventilated front seats, panoramic sunroof',
+      'ADAS Level 2, 360° camera',
+      '21" alloy wheels, adaptive dampers',
+    ],
+  },
+  Apex: {
+    price: 31.2,
+    priceLabel: '₹31.2 lakh',
+    drive: 'AWD, dual motor',
+    battery: '78 kWh',
+    range: '489 km',
+    seats: '7',
+    adas: 'Level 2',
+    features: [
+      '489 km certified range, dual motor',
+      'Quilted leatherette, 14-speaker audio',
+      'Head-up display, rear-seat entertainment',
+      'Matte skid plates, tow package',
+    ],
+  },
+};
